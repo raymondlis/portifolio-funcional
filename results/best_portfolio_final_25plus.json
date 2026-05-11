@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "dataPath": "data/prices_2025_h2_real.csv",
+    "outputPath": "results/best_portfolio_final_25plus.json",
+    "choose": 25,
+    "simulations": 10,
+    "seed": 42,
+    "mode": Parallel,
+    "limitCombinations": Just 10
+  },
+  "annualReturn": 0.2401151654311346,
+  "annualVolatility": 0.1057826696129447,
+  "sharpeRatio": 2.2698913376804355,
+  "portfolio": [
+    { "ticker": "AAPL", "weight": 4.406149511336858e-2 },
+    { "ticker": "AMGN", "weight": 2.4466719102401297e-2 },
+    { "ticker": "AMZN", "weight": 6.284154300046117e-2 },
+    { "ticker": "AXP", "weight": 4.203948158115851e-2 },
+    { "ticker": "BA", "weight": 6.763578012369778e-2 },
+    { "ticker": "CAT", "weight": 5.903481922306666e-2 },
+    { "ticker": "CRM", "weight": 3.4765997637233155e-2 },
+    { "ticker": "CSCO", "weight": 5.227992785348318e-2 },
+    { "ticker": "CVX", "weight": 5.202098692897168e-2 },
+    { "ticker": "DIS", "weight": 1.392587292863054e-2 },
+    { "ticker": "GS", "weight": 7.813951064192709e-2 },
+    { "ticker": "HD", "weight": 1.2475203583319116e-2 },
+    { "ticker": "HON", "weight": 1.5457170112894764e-2 },
+    { "ticker": "IBM", "weight": 3.092105263157894e-2 },
+    { "ticker": "JNJ", "weight": 1.0253239328064488e-2 },
+    { "ticker": "JPM", "weight": 6.706490975367838e-2 },
+    { "ticker": "KO", "weight": 3.98322056491607e-4 },
+    { "ticker": "MCD", "weight": 7.871559299761827e-2 },
+    { "ticker": "MMM", "weight": 3.42444831921359e-2 },
+    { "ticker": "MRK", "weight": 6.066238020329902e-2 },
+    { "ticker": "MSFT", "weight": 2.5418064426460454e-2 },
+    { "ticker": "NKE", "weight": 7.072901465041789e-3 },
+    { "ticker": "NVDA", "weight": 7.007230445577392e-2 },
+    { "ticker": "PG", "weight": 1.4197922786801356e-3 },
+    { "ticker": "VZ", "weight": 5.4612449380563394e-2 }
+
+  ]
+}
