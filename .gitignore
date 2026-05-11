@@ -1,0 +1,35 @@
+# Haskell / Cabal
+dist/
+dist-newstyle/
+cabal.project.local
+cabal.project.local~
+.ghc.environment.*
+.cabal-sandbox/
+# Build outputs
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.hie
+
+# Executables
+*.exe
+
+# Generated results
+# results/ (Uncommented to allow committing the final result)
+
+# Local real datasets
+data/prices_2025_h2.csv
+data/prices_2025_q1.csv
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
